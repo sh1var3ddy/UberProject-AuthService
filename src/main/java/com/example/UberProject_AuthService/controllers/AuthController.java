@@ -1,4 +1,4 @@
-package com.example.UberProject_AuthService.Controller;
+package com.example.UberProject_AuthService.controllers;
 
 import com.example.UberProject_AuthService.dto.PassengerSignupRequestDto;
 import org.springframework.http.HttpStatus;
