@@ -19,7 +19,7 @@ public class PassengerDto {
     private Date createdAt;
 
     public static PassengerDto fromPassenger(Passenger passenger) {
-        PassengerDto result = PassengerDto
+        return PassengerDto
                 .builder()
                 .id(passenger.getId().toString())
                 .password(passenger.getPassword())
@@ -28,7 +28,6 @@ public class PassengerDto {
                 .email(passenger.getEmail())
                 .createdAt(passenger.getCreatedAt())
                 .build();
-        return result;
     }
 
 }
